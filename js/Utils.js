@@ -1,7 +1,7 @@
 
 /*
 *  Utils
-*
+*  utility functions
 *
 * Created by Yigal Omer
 * Date: 10-1-2013

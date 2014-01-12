@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HPTodoEx.iml" filepath="$PROJECT_DIR$/HPTodoEx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TodoMVC.iml" filepath="$PROJECT_DIR$/TodoMVC.iml" />
     </modules>
   </component>
 </project>

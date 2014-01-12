@@ -18,7 +18,7 @@ var EVENT_TASK_DONE = "EVENT_TASK_DONE"; // MODEL -> CONTROLLER
 
 
 
-// ObserverEvent which is passed between Model->Controller and  UI->Controller
+// Event which is passed between Model->Controller and  UI->Controller
 function ObserverEvent(type,contextData) {
 
     this.mEventType = type ;
