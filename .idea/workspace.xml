@@ -67,7 +67,7 @@
       <file leaf-file-name="TodoApp.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/TodoApp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="0" selection-start="1951" selection-end="1951" vertical-scroll-proportion="0.0" vertical-offset="498" max-vertical-offset="1170">
+            <state line="75" column="0" selection-start="1951" selection-end="1951" vertical-scroll-proportion="0.0" vertical-offset="1125" max-vertical-offset="1245">
               <folding />
             </state>
           </provider>
@@ -76,7 +76,7 @@
       <file leaf-file-name="Controller.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/Controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="29" selection-start="1335" selection-end="1335" vertical-scroll-proportion="1.0044643" vertical-offset="150" max-vertical-offset="1050">
+            <state line="59" column="0" selection-start="1344" selection-end="1344" vertical-scroll-proportion="0.7106825" vertical-offset="406" max-vertical-offset="1080">
               <folding />
             </state>
           </provider>
@@ -85,7 +85,7 @@
       <file leaf-file-name="View.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/View.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="2" selection-start="2577" selection-end="2577" vertical-scroll-proportion="0.0" vertical-offset="2184" max-vertical-offset="2856">
+            <state line="105" column="2" selection-start="2577" selection-end="2577" vertical-scroll-proportion="0.0" vertical-offset="1575" max-vertical-offset="2520">
               <folding />
             </state>
           </provider>
@@ -121,7 +121,7 @@
       <file leaf-file-name="Observer.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/Observer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0" vertical-offset="61" max-vertical-offset="825">
+            <state line="22" column="0" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="960">
               <folding />
             </state>
           </provider>
@@ -130,10 +130,8 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="25" selection-start="1460" selection-end="1460" vertical-scroll-proportion="-21.0" vertical-offset="0" max-vertical-offset="1395">
-              <folding>
-                <marker date="1389795233000" expanded="true" signature="1105:1307" placeholder="..." />
-              </folding>
+            <state line="70" column="25" selection-start="1460" selection-end="1460" vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="1395">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -142,9 +140,7 @@
         <entry file="file://$PROJECT_DIR$/js/ArrayList.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="28" column="0" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="1860">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -171,13 +167,13 @@
         <option value="$PROJECT_DIR$/index_orig.html" />
         <option value="$PROJECT_DIR$/js/Model.js" />
         <option value="$PROJECT_DIR$/js/HPTodo.js" />
-        <option value="$PROJECT_DIR$/js/Controller.js" />
         <option value="$PROJECT_DIR$/js/Utils.js" />
         <option value="$PROJECT_DIR$/js/ArrayList.js" />
         <option value="$PROJECT_DIR$/Resource/base.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/TodoApp.js" />
         <option value="$PROJECT_DIR$/js/View.js" />
+        <option value="$PROJECT_DIR$/js/Controller.js" />
       </list>
     </option>
   </component>
@@ -213,6 +209,9 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -260,9 +259,6 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane />
       </pane>
     </panes>
   </component>
@@ -566,11 +562,12 @@
       <workItem from="1389558597684" duration="492000" />
       <workItem from="1389617649879" duration="303000" />
       <workItem from="1389622845615" duration="21758000" />
+      <workItem from="1389810083436" duration="541000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89222000" />
+    <option name="totallyTimeSpent" value="89763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1420" height="792" extended-state="0" />
@@ -581,16 +578,14 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32714286" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3190883" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36834735" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2053701" sideWeight="0.5011389" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -601,6 +596,8 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32714286" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -630,6 +627,34 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/Model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="0" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.0" vertical-offset="78" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Observer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="25" selection-start="1460" selection-end="1460" vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="1395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ArrayList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="1860">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/TodoApp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="71" column="2" selection-start="1915" selection-end="1915" vertical-scroll-proportion="0.0" vertical-offset="467" max-vertical-offset="1155">
@@ -682,18 +707,14 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="0" selection-start="1282" selection-end="1282" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1110">
-          <folding>
-            <marker date="1389795233000" expanded="true" signature="1105:1307" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/ArrayList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="18" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1860">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -742,18 +763,14 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="0" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.0" vertical-offset="446" max-vertical-offset="1110">
-          <folding>
-            <marker date="1389795233000" expanded="true" signature="1105:1307" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/ArrayList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="18" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="1172" max-vertical-offset="1860">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -767,9 +784,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="26" selection-start="1328" selection-end="1581" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1605">
-          <folding>
-            <marker date="1389795233000" expanded="true" signature="1105:1307" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -795,9 +810,7 @@
     <entry file="file://$PROJECT_DIR$/js/ArrayList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="18" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1860">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -816,9 +829,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="26" selection-start="1328" selection-end="1581" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1605">
-          <folding>
-            <marker date="1389795233000" expanded="true" signature="1105:1307" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -844,9 +855,7 @@
     <entry file="file://$PROJECT_DIR$/js/ArrayList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="0" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="373" max-vertical-offset="2175">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -896,10 +905,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="25" selection-start="1460" selection-end="1460" vertical-scroll-proportion="-21.0" vertical-offset="0" max-vertical-offset="1395">
-          <folding>
-            <marker date="1389795233000" expanded="true" signature="1105:1307" placeholder="..." />
-          </folding>
+        <state line="70" column="25" selection-start="1460" selection-end="1460" vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="1395">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -913,9 +920,7 @@
     <entry file="file://$PROJECT_DIR$/js/ArrayList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="0" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="1860">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -956,7 +961,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/Controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="29" selection-start="1335" selection-end="1335" vertical-scroll-proportion="1.0044643" vertical-offset="150" max-vertical-offset="1050">
+        <state line="59" column="0" selection-start="1344" selection-end="1344" vertical-scroll-proportion="0.7106825" vertical-offset="406" max-vertical-offset="1080">
           <folding />
         </state>
       </provider>

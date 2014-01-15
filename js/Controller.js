@@ -20,41 +20,43 @@ Controller.prototype = {
 
         var index ;
 
-        if ( event.mEventType == EVENT_ADD_TASK_CLICKED ) {
+        switch (event.mEventType) {
 
-            if (event && event.mContextData) {
-                this.mModel.addItem(event.mContextData);
-            }
+            // View -> Controller events
+
+            case EVENT_ADD_TASK_CLICKED :
+
+                if (event && event.mContextData) {
+                    this.mModel.addItem(event.mContextData);
+                }
+                break ;
+
+            case EVENT_DELETE_TASK_CLICKED :
+
+                index = event.mContextData;
+                this.mModel.removeItemAtIndex(index);
+                break ;
+
+            case EVENT_TASK_DONE_CLICKED :
+
+                index = event.mContextData;
+                this.mModel.setItemDoneAtIndex(index);
+                break ;
+
+
+
+            // Model -> Controller events
+
+            case EVENT_TASK_ADDED :
+            case EVENT_TASK_DELETED :
+            case EVENT_TASK_DONE :
+
+                this.mView.rebuildList();
+                break ;
+
 
         }
-        else if ( event.mEventType == EVENT_TASK_ADDED ) {
 
-            this.mView.rebuildList();
-        }
-
-
-        else if ( event.mEventType == EVENT_DELETE_TASK_CLICKED ) {
-
-            index = event.mContextData;
-            this.mModel.removeItemAtIndex(index);
-
-        }
-        else if ( event.mEventType == EVENT_TASK_DELETED ) {
-
-            this.mView.rebuildList();
-        }
-
-
-        else if ( event.mEventType == EVENT_TASK_DONE_CLICKED ) {
-
-            index = event.mContextData;
-            this.mModel.setItemDoneAtIndex(index);
-
-        }
-        else if ( event.mEventType == EVENT_TASK_DONE ) {
-
-            this.mView.rebuildList();
-        }
 
 
     }
