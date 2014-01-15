@@ -16,8 +16,6 @@ function View(model, elements) {
     this.domElements = elements;
     var _this = this;
 
-
-    //$('#new-todo').keyup(function() {
     this.domElements.newTodoInputText.keyup(function() {
 
         var windowEvent = window.event;
@@ -39,7 +37,7 @@ function View(model, elements) {
 
 
 
-
+    // Delete task
     this.domElements.todoList.on( 'click','.destroy', function() {
 
         // Get the li index - button inside a div which inside a li -
@@ -66,12 +64,17 @@ function View(model, elements) {
 //
 //    }),
 
+    // Mark task as completed
     this.domElements.todoList.on( 'click','.toggle', function() {
+
 
         // Get the list item index
         var itemIndex = getIndex(this.parentNode.parentNode) ;
+        // Get the item done status
+        var isTaskDone = _this.mModel.getItemIsDoneAtIndex(itemIndex) ;
+
         if (itemIndex != -1) {
-            var event = new ObserverEvent(EVENT_TASK_DONE_CLICKED,itemIndex);
+            var event = new ObserverEvent(isTaskDone ? EVENT_TASK_UNDONE_CLICKED : EVENT_TASK_DONE_CLICKED,itemIndex);
             // notify the controller that task-done  was selected by the user
             _this.notify(event) ;
         }
@@ -111,6 +114,7 @@ View.prototype = {
 
             if (taskItems.hasOwnProperty(key)) {
 
+                // Task Item template
                 var taskItemHtml = '<div class="view"> ' +
                                             '<input class="toggle" type="checkbox">' +
                                             '<label>' + taskItems[key].text +'</label> ' +
@@ -119,11 +123,13 @@ View.prototype = {
                                    '<input class="edit" value='+ taskItems[key].text +'> ' ;
 
                 var li = document.createElement('li');
+
                 // Add the task item text
                 li.innerHTML = taskItemHtml  ;
 
-                // Add line through and mark the checkbox if task is done
+                // Add a line through and mark the checkbox if task is done
                 if (taskItems[key].isDone ) {
+
                     li.style.textDecoration = "line-through" ;
 
                     // Check the checkbox.

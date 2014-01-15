@@ -40,15 +40,25 @@ Model.prototype = {
         this.notify(event) ;
     },
 
-    // Set item as done and notify controller
-    setItemDoneAtIndex: function (index) {
+    // Set item as done or undone and notify controller
+    setItemDoneAtIndex: function (index,doneStatus) {
 
         var item = this.mItems[index];
-        item.isDone = true ;
-        var event = new ObserverEvent(EVENT_TASK_DONE,item);
+        item.isDone = doneStatus ;
+        var event = new ObserverEvent(doneStatus?EVENT_TASK_DONE:EVENT_TASK_UNDONE,item);
         this.notify(event) ;
 
+    },
+
+    // Get item is done for a given item's index
+    getItemIsDoneAtIndex: function (index) {
+
+        var item = this.mItems[index];
+        return item.isDone ;
+
     }
+
+
 
 
 };

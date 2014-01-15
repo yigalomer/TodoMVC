@@ -40,16 +40,20 @@ Controller.prototype = {
             case EVENT_TASK_DONE_CLICKED :
 
                 index = event.mContextData;
-                this.mModel.setItemDoneAtIndex(index);
+                this.mModel.setItemDoneAtIndex(index,true);
                 break ;
 
-
+            case EVENT_TASK_UNDONE_CLICKED :
+                index = event.mContextData;
+                this.mModel.setItemDoneAtIndex(index,false);
+                break ;
 
             // Model -> Controller events
 
             case EVENT_TASK_ADDED :
             case EVENT_TASK_DELETED :
             case EVENT_TASK_DONE :
+            case EVENT_TASK_UNDONE :
 
                 this.mView.rebuildList();
                 break ;
