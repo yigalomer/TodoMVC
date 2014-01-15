@@ -28,7 +28,7 @@ Subject.prototype.addObserver = function( observer )
     if( !observer.handelEvents )
         throw 'Wrong parameter';
 
-    this.mObservers.Add( observer );
+    this.mObservers.add( observer );
 }
 
 Subject.prototype.removeObserver = function( observer )

@@ -64,30 +64,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TodoApp.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TodoApp.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/TodoApp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="3" selection-start="591" selection-end="591" vertical-scroll-proportion="0.4360465" vertical-offset="0" max-vertical-offset="1155">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/Controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1076" selection-end="1076" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
+            <state line="75" column="0" selection-start="1951" selection-end="1951" vertical-scroll-proportion="0.0" vertical-offset="498" max-vertical-offset="1170">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Utils.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/Utils.js">
+      <file leaf-file-name="Controller.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/Controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="20" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
+            <state line="55" column="29" selection-start="1335" selection-end="1335" vertical-scroll-proportion="1.0044643" vertical-offset="150" max-vertical-offset="1050">
               <folding />
             </state>
           </provider>
@@ -96,13 +85,17 @@
       <file leaf-file-name="View.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/View.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="144" column="66" selection-start="4184" selection-end="4184" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2400">
-              <folding>
-                <marker date="1389558258000" expanded="false" signature="2347:2413" placeholder="..." />
-                <marker date="1389558258000" expanded="false" signature="2483:2518" placeholder="..." />
-                <marker date="1389558258000" expanded="false" signature="3299:3365" placeholder="..." />
-                <marker date="1389558258000" expanded="false" signature="3431:3465" placeholder="..." />
-              </folding>
+            <state line="105" column="2" selection-start="2577" selection-end="2577" vertical-scroll-proportion="0.0" vertical-offset="2184" max-vertical-offset="2856">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Utils.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/Utils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="9" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0" vertical-offset="346" max-vertical-offset="780">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,7 +103,7 @@
       <file leaf-file-name="base.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Resource/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="0" selection-start="1480" selection-end="1480" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="8745">
+            <state line="279" column="22" selection-start="5496" selection-end="5518" vertical-scroll-proportion="0.0" vertical-offset="6555" max-vertical-offset="8745">
               <folding />
             </state>
           </provider>
@@ -119,7 +112,7 @@
       <file leaf-file-name="Model.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/Model.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
+            <state line="48" column="0" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.0" vertical-offset="78" max-vertical-offset="900">
               <folding />
             </state>
           </provider>
@@ -128,10 +121,8 @@
       <file leaf-file-name="Observer.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/Observer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="38" selection-start="386" selection-end="402" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="22" column="0" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0" vertical-offset="61" max-vertical-offset="825">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -139,17 +130,10 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="0" selection-start="1282" selection-end="1282" vertical-scroll-proportion="-24.791666" vertical-offset="425" max-vertical-offset="1110">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base1111.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resource/base1111.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="0" selection-start="977" selection-end="1214" vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="4965">
-              <folding />
+            <state line="70" column="25" selection-start="1460" selection-end="1460" vertical-scroll-proportion="-21.0" vertical-offset="0" max-vertical-offset="1395">
+              <folding>
+                <marker date="1389795233000" expanded="true" signature="1105:1307" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -157,8 +141,10 @@
       <file leaf-file-name="ArrayList.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/ArrayList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="18" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1860">
-              <folding />
+            <state line="28" column="0" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="1860">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -183,22 +169,22 @@
         <option value="$PROJECT_DIR$/HPTodo.js" />
         <option value="$PROJECT_DIR$/index2.html" />
         <option value="$PROJECT_DIR$/index_orig.html" />
-        <option value="$PROJECT_DIR$/js/ArrayList.js" />
         <option value="$PROJECT_DIR$/js/Model.js" />
         <option value="$PROJECT_DIR$/js/HPTodo.js" />
         <option value="$PROJECT_DIR$/js/Controller.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/Resource/base.css" />
-        <option value="$PROJECT_DIR$/js/View.js" />
         <option value="$PROJECT_DIR$/js/Utils.js" />
+        <option value="$PROJECT_DIR$/js/ArrayList.js" />
+        <option value="$PROJECT_DIR$/Resource/base.css" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/TodoApp.js" />
+        <option value="$PROJECT_DIR$/js/View.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1420" />
-    <option name="height" value="806" />
+    <option name="height" value="792" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -226,6 +212,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -254,6 +241,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Resource" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TodoMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TodoMVC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -263,7 +264,6 @@
       <pane id="PackagesPane">
         <subPane />
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -275,6 +275,9 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/index.html" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -289,7 +292,12 @@
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/HPTodoEx/index.html">
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/TodoMVC/index.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="index.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/TodoMVC/index.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -510,15 +518,17 @@
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.JS" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index2.html" />
       <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index2.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html (1)" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.index2.html" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -553,15 +563,17 @@
       <workItem from="1389514882456" duration="15834000" />
       <workItem from="1389532511304" duration="37000" />
       <workItem from="1389532592961" duration="1815000" />
-      <workItem from="1389558597684" duration="237000" />
+      <workItem from="1389558597684" duration="492000" />
+      <workItem from="1389617649879" duration="303000" />
+      <workItem from="1389622845615" duration="21758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66906000" />
+    <option name="totallyTimeSpent" value="89222000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1420" height="806" extended-state="0" />
+    <frame x="0" y="22" width="1420" height="792" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -569,26 +581,26 @@
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32714286" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38687152" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36834735" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2053701" sideWeight="0.5011389" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2053701" sideWeight="0.49886104" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16255443" sideWeight="0.49886104" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282123" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -610,7 +622,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="64" />
+      <option name="time" value="82" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -620,10 +632,75 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/TodoApp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1155">
+        <state line="71" column="2" selection-start="1915" selection-end="1915" vertical-scroll-proportion="0.0" vertical-offset="467" max-vertical-offset="1155">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1076" selection-end="1076" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1050">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="20" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/View.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="24" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="2400">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resource/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="0" selection-start="1480" selection-end="1480" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="8745">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Observer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="38" selection-start="386" selection-end="402" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="0" selection-start="1282" selection-end="1282" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1110">
+          <folding>
+            <marker date="1389795233000" expanded="true" signature="1105:1307" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/ArrayList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="18" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1860">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/TodoApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="945" selection-end="945" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1155">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -644,12 +721,7 @@
     <entry file="file://$PROJECT_DIR$/js/View.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="144" column="66" selection-start="4184" selection-end="4184" vertical-scroll-proportion="0.0" vertical-offset="1665" max-vertical-offset="2400">
-          <folding>
-            <marker date="1389558258000" expanded="false" signature="2347:2413" placeholder="..." />
-            <marker date="1389558258000" expanded="false" signature="2483:2518" placeholder="..." />
-            <marker date="1389558258000" expanded="false" signature="3299:3365" placeholder="..." />
-            <marker date="1389558258000" expanded="false" signature="3431:3465" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -670,42 +742,34 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="0" selection-start="1281" selection-end="1281" vertical-scroll-proportion="0.0" vertical-offset="446" max-vertical-offset="1110">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resource/base1111.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="0" selection-start="977" selection-end="1214" vertical-scroll-proportion="0.0" vertical-offset="1050" max-vertical-offset="4965">
-          <folding />
+          <folding>
+            <marker date="1389795233000" expanded="true" signature="1105:1307" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/ArrayList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="18" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="1172" max-vertical-offset="1860">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HPTodo.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="240" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/TodoApp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="8" selection-start="1689" selection-end="1689" vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="4995">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/TodoApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="8" selection-start="1689" selection-end="1689" vertical-scroll-proportion="0.0" vertical-offset="975" max-vertical-offset="4995">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="26" selection-start="1328" selection-end="1581" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1605">
-          <folding />
+          <folding>
+            <marker date="1389795233000" expanded="true" signature="1105:1307" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -724,30 +788,23 @@
     <entry file="file://$PROJECT_DIR$/js/Observer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="38" selection-start="386" selection-end="402" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="960">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/ArrayList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="18" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1860">
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HPTodo.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/TodoApp.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="157" column="0" selection-start="4200" selection-end="4200" vertical-scroll-proportion="0.0" vertical-offset="2355" max-vertical-offset="4665">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -759,7 +816,9 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="26" selection-start="1328" selection-end="1581" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="1605">
-          <folding />
+          <folding>
+            <marker date="1389795233000" expanded="true" signature="1105:1307" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -778,16 +837,16 @@
     <entry file="file://$PROJECT_DIR$/js/Observer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="0" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="960">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/ArrayList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="0" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0" vertical-offset="373" max-vertical-offset="2175">
-          <folding />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -821,87 +880,84 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HPTodo.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="39" selection-end="39" vertical-scroll-proportion="0.021802325" vertical-offset="0" max-vertical-offset="688" />
+    <entry file="https://reserve.car2go.co.il/skin/cgo_ui.css_4_34_2_3">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resource/base1111.css">
+    <entry file="file://$PROJECT_DIR$/Resource/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="0" selection-start="977" selection-end="1214" vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="4965">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resource/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="0" selection-start="1480" selection-end="1480" vertical-scroll-proportion="0.0" vertical-offset="900" max-vertical-offset="8745">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="1282" selection-end="1282" vertical-scroll-proportion="-24.791666" vertical-offset="425" max-vertical-offset="1110">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/Model.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="900">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/Observer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="38" selection-start="386" selection-end="402" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+        <state line="3571" column="4" selection-start="99249" selection-end="99249" vertical-scroll-proportion="0.24127465" vertical-offset="53406" max-vertical-offset="144030">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/View.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="66" selection-start="4184" selection-end="4184" vertical-scroll-proportion="0.0" vertical-offset="1665" max-vertical-offset="2400">
+        <state line="70" column="25" selection-start="1460" selection-end="1460" vertical-scroll-proportion="-21.0" vertical-offset="0" max-vertical-offset="1395">
           <folding>
-            <marker date="1389558258000" expanded="false" signature="2347:2413" placeholder="..." />
-            <marker date="1389558258000" expanded="false" signature="2483:2518" placeholder="..." />
-            <marker date="1389558258000" expanded="false" signature="3299:3365" placeholder="..." />
-            <marker date="1389558258000" expanded="false" signature="3431:3465" placeholder="..." />
+            <marker date="1389795233000" expanded="true" signature="1105:1307" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/Utils.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="20" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780">
+        <state line="32" column="9" selection-start="656" selection-end="656" vertical-scroll-proportion="0.0" vertical-offset="346" max-vertical-offset="780">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/ArrayList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="18" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0" vertical-offset="1172" max-vertical-offset="1860">
+        <state line="28" column="0" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0" vertical-offset="286" max-vertical-offset="1860">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Observer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0" vertical-offset="61" max-vertical-offset="825">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/Controller.js">
+    <entry file="file://$PROJECT_DIR$/Resource/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1076" selection-end="1076" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1050">
+        <state line="279" column="22" selection-start="5496" selection-end="5518" vertical-scroll-proportion="0.0" vertical-offset="3930" max-vertical-offset="8745">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/TodoApp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="3" selection-start="591" selection-end="591" vertical-scroll-proportion="0.4360465" vertical-offset="0" max-vertical-offset="1155">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="75" column="0" selection-start="1951" selection-end="1951" vertical-scroll-proportion="0.0" vertical-offset="498" max-vertical-offset="1170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/View.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="2" selection-start="2577" selection-end="2577" vertical-scroll-proportion="0.0" vertical-offset="2184" max-vertical-offset="2856">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="0" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/Controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="29" selection-start="1335" selection-end="1335" vertical-scroll-proportion="1.0044643" vertical-offset="150" max-vertical-offset="1050">
+          <folding />
         </state>
       </provider>
     </entry>

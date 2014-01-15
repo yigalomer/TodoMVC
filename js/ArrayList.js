@@ -15,7 +15,7 @@ ArrayList.prototype.count = function () {
     return this.mList.length;
 }
 
-ArrayList.prototype.Add = function (object) {
+ArrayList.prototype.add = function (object) {
     //Object are placed at the end of the array
     return this.mList.push(object);
 }
@@ -28,7 +28,7 @@ ArrayList.prototype.getAt = function (index) //Index must be a number
         return undefined; //Out of bound array, return undefined
 }
 
-ArrayList.prototype.Clear = function () {
+ArrayList.prototype.clear = function () {
     this.mList = [];
 }
 

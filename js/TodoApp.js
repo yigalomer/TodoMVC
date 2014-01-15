@@ -18,6 +18,11 @@ var EVENT_TASK_DONE = "EVENT_TASK_DONE"; // MODEL -> CONTROLLER
 
 
 
+// TODO
+// 1. change inheritance
+// 2. add statistics
+// 3. add local storage
+
 // Event which is passed between Model->Controller and  UI->Controller
 function ObserverEvent(type,contextData) {
 
@@ -37,18 +42,17 @@ function TaskItem(text,isDone) {
 
 
 
+$(document).ready(function () {
 
-
-
-window.onload = function () {
 
     var model = new Model([]);
 
     var view = new View(model, {
-        'todoList':  document.getElementById('todo-list'),
-        'newTodoInputText': document.getElementById('new-todo')
+        'todoList':  $('#todo-list'),
+        'newTodoInputText': $('#new-todo')
 
     });
+
 
     var controller = new Controller(model, view);
 
@@ -69,4 +73,6 @@ window.onload = function () {
 
 
     view.show();
-};
+
+
+});
