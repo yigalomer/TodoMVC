@@ -9,7 +9,7 @@ function Controller(model, view) {
 
     this.mModel = model;
     this.mView = view;
-    //var _this = this;
+
 }
 
 

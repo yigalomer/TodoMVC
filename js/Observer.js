@@ -19,30 +19,34 @@ Subject.prototype.notify = function( context )
 {
     var count = this.mObservers.count();
 
-    for( var i = 0; i < count; i++ )
+    for( var i = 0; i < count; i++ ) {
         this.mObservers.getAt(i).handelEvents( context );
+    }
 }
 
 Subject.prototype.addObserver = function( observer )
 {
-    if( !observer.handelEvents )
+    if( !observer.handelEvents ){
         throw 'Wrong parameter';
+    }
 
     this.mObservers.add( observer );
 }
 
 Subject.prototype.removeObserver = function( observer )
 {
-    if( !observer.handelEvents )
+    if( !observer.handelEvents ){
         throw 'Wrong parameter';
+    }
 
     this.mObservers.removeAt(this.mObservers.indexOf( observer, 0 ));
 }
 
 Subject.prototype.getUpdate = function( observer )
 {
-    if( !observer.handelEvents )
+    if( !observer.handelEvents ){
         throw 'Wrong parameter';
+    }
 
     return this.mMessage;
 }

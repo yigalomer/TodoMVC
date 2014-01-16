@@ -50,6 +50,11 @@ $(document).ready(function () {
 
     var controller = new Controller(model, view);
 
+
+    // Model Derived from Subject and notifies the controller about data changes,
+    // for example when task is added, controller updates the view with the new task to present
+    inherits(new Subject(), model) ;
+
     // View Derived from Subject and notifies the controller about user actions,
     // for example: when Add-Task selected by the user, View sends an event to the controller
     // which updates the Model with the new task
@@ -57,11 +62,11 @@ $(document).ready(function () {
 
     // Controller derived from Observer, listen to View user action and Model Changes
     inherits(new Observer(), controller ) ;
+
+    // Controller observes the View for user actions
     view.addObserver(controller);
 
-    // Model Derived from Subject and notifies the controller about data changes,
-    // for example when task is added, controller updates the view with the new task to present
-    inherits(new Subject(), model) ;
+    // Controller observes the Model for data changes
     model.addObserver(controller);
 
 
