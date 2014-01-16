@@ -64,10 +64,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TodoApp.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TodoApp.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/TodoApp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="28" selection-start="1436" selection-end="1436" vertical-scroll-proportion="0.48660713" vertical-offset="393" max-vertical-offset="1065">
+            <state line="53" column="28" selection-start="1436" selection-end="1436" vertical-scroll-proportion="0.0" vertical-offset="393" max-vertical-offset="1065">
               <folding />
             </state>
           </provider>
@@ -109,10 +109,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="165">
+            <state line="5" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="0.11591963" vertical-offset="0" max-vertical-offset="647">
               <folding />
             </state>
           </provider>
@@ -183,6 +183,7 @@
         <option value="$PROJECT_DIR$/js/Controller.js" />
         <option value="$PROJECT_DIR$/js/Model.js" />
         <option value="$PROJECT_DIR$/js/TodoApp.js" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -236,34 +237,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="TodoMVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TodoMVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TodoMVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TodoMVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TodoMVC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -571,12 +544,12 @@
       <workItem from="1389558597684" duration="492000" />
       <workItem from="1389617649879" duration="303000" />
       <workItem from="1389622845615" duration="21758000" />
-      <workItem from="1389810083436" duration="16833000" />
+      <workItem from="1389810083436" duration="16864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106055000" />
+    <option name="totallyTimeSpent" value="106086000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1438" height="792" extended-state="0" />
@@ -884,13 +857,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="450">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="http://localhost:63342/TodoMVC/index.htmllearn.json">
       <provider selected="true" editor-type-id="httpFileEditor">
         <state />
@@ -963,7 +929,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/TodoApp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="28" selection-start="1436" selection-end="1436" vertical-scroll-proportion="0.48660713" vertical-offset="393" max-vertical-offset="1065">
+        <state line="53" column="28" selection-start="1436" selection-end="1436" vertical-scroll-proportion="0.0" vertical-offset="393" max-vertical-offset="1065">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="0.11591963" vertical-offset="0" max-vertical-offset="165">
           <folding />
         </state>
       </provider>
