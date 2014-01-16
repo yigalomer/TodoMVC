@@ -12,6 +12,9 @@
 
 function View(model) {
 
+
+    // Ctor
+
     this.mModel = model;
 
     this.domElements =  {
@@ -21,23 +24,9 @@ function View(model) {
 
     var _this = this;
 
-    // key up on input text - listener
     this.domElements.newTodoInputText.keyup(function() {
-
-        var windowEvent = window.event;
-        var newTaskText= $(this).val().trim() ;
-
-        // if ENTER KEY pressed
-        if(windowEvent.keyCode == 13 && newTaskText != "") {
-
-            // Create the add-task event and notify the controller that a new task was added by the user
-            _this.notify(_this.createAddTaskEvent(newTaskText) ) ;
-            // Clear the input text
-            $(this).val('') ;
-        }
+        _this.handleInputTextKeyup(this) ;
     }),
-
-
 
 
     // Delete task listener
@@ -54,7 +43,6 @@ function View(model) {
         }
 
     }),
-
 
 
     // Mark task as completed click listener
@@ -105,9 +93,34 @@ function View(model) {
 
 View.prototype = {
 
+
+
+    // key up on input text - listener
+    handleInputTextKeyup:function(inputText) {
+
+        var windowEvent = window.event;
+        var newTaskText= inputText.value.trim() ;
+
+        // if ENTER KEY pressed
+        if(windowEvent.keyCode == 13 && newTaskText != "") {
+
+            // Create the add-task event and notify the controller that a new task was added by the user
+            _this.notify(_this.createAddTaskEvent(newTaskText) ) ;
+
+            // Clear the input text
+            inputText[0].value('') ;
+        }
+    },
+
+
+
     show: function () {
         this.rebuildList();
     },
+
+
+
+
 
 
     // Get the task items from the Model and render the list
@@ -145,6 +158,7 @@ View.prototype = {
                 if (taskItems[key].isCompleted ) {
                     _this.markTaskAsCompleted(li) ;
                 }
+
                 list.append(li);
             }
         }

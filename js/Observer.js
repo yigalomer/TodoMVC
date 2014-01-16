@@ -12,44 +12,39 @@
 function Subject()
 {
     this.mObservers = new ArrayList();
-    this.mMessage = "" ;
 }
 
-Subject.prototype.notify = function( context )
-{
-    var count = this.mObservers.count();
 
-    for( var i = 0; i < count; i++ ) {
-        this.mObservers.getAt(i).handelEvents( context );
-    }
-}
 
-Subject.prototype.addObserver = function( observer )
-{
-    if( !observer.handelEvents ){
-        throw 'Wrong parameter';
-    }
+Subject.prototype = {
 
-    this.mObservers.add( observer );
-}
+    notify: function( context ) {
 
-Subject.prototype.removeObserver = function( observer )
-{
-    if( !observer.handelEvents ){
-        throw 'Wrong parameter';
-    }
+        var count = this.mObservers.count();
 
-    this.mObservers.removeAt(this.mObservers.indexOf( observer, 0 ));
-}
+        for( var i = 0; i < count; i++ ) {
+            this.mObservers.getAt(i).handelEvents( context );
+        }
+    },
 
-Subject.prototype.getUpdate = function( observer )
-{
-    if( !observer.handelEvents ){
-        throw 'Wrong parameter';
+    addObserver: function( observer ) {
+
+        if( !observer.handelEvents ){
+            throw 'Wrong parameter';
+        }
+
+        this.mObservers.add( observer );
+    },
+
+    removeObserver : function( observer ) {
+
+        if( !observer.handelEvents ){
+            throw 'Wrong parameter';
+        }
+        this.mObservers.removeAt(this.mObservers.indexOf( observer, 0 ));
     }
 
-    return this.mMessage;
-}
+};
 
 
 
