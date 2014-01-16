@@ -1,8 +1,8 @@
 
 /**
  * View
- * Receives references to Model and DOM UI elements and presents the model tasks.
- * provides the UI events and notify the controller about these user action events
+ * Receives references to the Model and presents the Model's tasks.
+ * Provides the UI events and notify the controller about user action events
  *
  * Created by Yigal Omer
  * Date: 10-1-2013
@@ -10,45 +10,46 @@
 
 
 
-function View(model, elements) {
+function View(model) {
 
     this.mModel = model;
-    this.domElements = elements;
+
+    this.domElements =  {
+        'todoList':  $('#todo-list'),
+        'newTodoInputText': $('#new-todo')
+    };
+
     var _this = this;
 
+    // key up on input text - listener
     this.domElements.newTodoInputText.keyup(function() {
 
         var windowEvent = window.event;
-        var newTaskText= $(this).val() ;
+        var newTaskText= $(this).val().trim() ;
 
         // if ENTER KEY pressed
         if(windowEvent.keyCode == 13 && newTaskText != "") {
 
-            // get the new task text from the UI input text and notify
-            // the controller that a new task was added by the user
+            // Create the add-task event and notify the controller that a new task was added by the user
             _this.notify(_this.createAddTaskEvent(newTaskText) ) ;
-
             // Clear the input text
-            //_this.domElements.newTodoInputText.value = '';
             $(this).val('') ;
         }
-
     }),
 
 
 
-    // Delete task
+
+    // Delete task listener
     this.domElements.todoList.on( 'click','.destroy', function() {
 
-        // Get the li index - button inside a div which inside a li -
-        // todo figure out a better way to get the li index
+        // Get the li index ( button inside a div which is inside the li)
+        // TODO figure out a better way to get the li index
         var itemIndex = getIndex(this.parentNode.parentNode) ;
-
-        //var itemIndex = (this.parentNode.parentNode).index ;
 
         if (itemIndex != -1) {
             var event = new ObserverEvent(EVENT_DELETE_TASK_CLICKED,itemIndex);
-            // notify the controller that Delete Task was selected by the user
+            // notify the controller about Delete Task
             _this.notify(event) ;
         }
 
@@ -56,33 +57,47 @@ function View(model, elements) {
 
 
 
-//    this.domElements.todoList.on( 'keypress','.edit', function() {
-//
-//        // Get the list item index
-//        var itemIndex = getIndex(this.parentNode) ;
-//
-//
-//    }),
-
-    // Mark task as completed
+    // Mark task as completed click listener
     this.domElements.todoList.on( 'click','.toggle', function() {
-
 
         // Get the list item index
         var itemIndex = getIndex(this.parentNode.parentNode) ;
-        // Get the item done status
+        // Get the item done status from the Model
         var isTaskDone = _this.mModel.getItemIsDoneAtIndex(itemIndex) ;
 
         if (itemIndex != -1) {
             var event = new ObserverEvent(isTaskDone ? EVENT_TASK_UNDONE_CLICKED : EVENT_TASK_DONE_CLICKED,itemIndex);
-            // notify the controller that task-done  was selected by the user
+            // notify the controller about task-done
             _this.notify(event) ;
         }
 
 
-    });
+    }),
+
+    // Start editing a task listener
+    this.domElements.todoList.on('dblclick', 'li', function (){
+
+        $(this).addClass('editing');
+        $(this).focus();
+
+    }),
 
 
+    // Done editing a task listener
+    this.domElements.todoList.on('keyup', 'li', function (){
+
+        var windowEvent = window.event;
+        // get the updated text
+        var updatedTaskText = $(this).find('.edit')[0].value.trim() ;
+
+        // if ENTER KEY pressed
+        if(windowEvent.keyCode == 13 && updatedTaskText != "") {
+
+            var itemIndex = getIndex(this) ; // get the li index
+            _this.mModel.updateItem(itemIndex,updatedTaskText) ;
+            $(this).removeClass('editing');
+        }
+    })
 
 
 
@@ -101,8 +116,7 @@ View.prototype = {
         var list  ; // The DOM list element
         var taskItems ; // array of task items which is retrieved from the model
         var key;
-        var _this = this ;
-
+        var _this= this ;
         list = this.domElements.todoList;
 
         // Clear the HTML list items first
@@ -124,22 +138,12 @@ View.prototype = {
 
                 var li = document.createElement('li');
 
-                // Add the task item text
+                // Add the task item html
                 li.innerHTML = taskItemHtml  ;
 
-                // Add a line through and mark the checkbox if task is done
-                if (taskItems[key].isDone ) {
-
-                    li.style.textDecoration = "line-through" ;
-
-                    // Check the checkbox.
-                    var children=li.firstChild.children;
-                    for (var i = 0; i < children.length; i++){
-                        if (children[i].type == 'checkbox'){
-                            children[i].checked = true;
-                        }
-                    }
-
+                // Mark task as completed in the UI
+                if (taskItems[key].isCompleted ) {
+                    _this.markTaskAsCompleted(li) ;
                 }
                 list.append(li);
             }
@@ -149,18 +153,26 @@ View.prototype = {
 
 
 
-    // Get the new task text from the input text and create new add-task event
+    // Create new add-task event with the task title
     createAddTaskEvent: function (newTaskText) {
 
         //var newTaskText= this.domElements.newTodoInputText.value ;
-        var isTaskDone = false
-
+        var isTaskDone = false ;
         return  new ObserverEvent(EVENT_ADD_TASK_CLICKED,new TaskItem(newTaskText,isTaskDone) );
 
+    },
+
+
+
+    markTaskAsCompleted: function (listItem) {
+
+        // Add the style class 'completed' which puts the line-through
+        $(listItem).addClass('completed');
+
+        // Check the completed checkbox
+        $(listItem).find('.toggle')[0].checked = true;
+
     }
-
-
-
 
 
 

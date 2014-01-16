@@ -48,6 +48,7 @@ Controller.prototype = {
                 this.mModel.setItemDoneAtIndex(index,false);
                 break ;
 
+
             // Model -> Controller events
 
             case EVENT_TASK_ADDED :

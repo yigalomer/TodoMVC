@@ -34,33 +34,24 @@ function ObserverEvent(type,contextData) {
 }
 
 // Task item
-function TaskItem(text,isDone) {
+function TaskItem(text,isCompleted) {
 
     this.text = text ;
-    this.isDone = isDone ;
+    this.isCompleted = isCompleted ;
 
 }
 
 
-
-
 $(document).ready(function () {
-
 
     var model = new Model([]);
 
-    var view = new View(model, {
-        'todoList':  $('#todo-list'),
-        'newTodoInputText': $('#new-todo')
-
-    });
-
+    var view = new View(model);
 
     var controller = new Controller(model, view);
 
-
     // View Derived from Subject and notifies the controller about user actions,
-    // for example: when Add Task selected by the user, View sends an event to the controller
+    // for example: when Add-Task selected by the user, View sends an event to the controller
     // which updates the Model with the new task
     inherits(new Subject(), view) ;
 
@@ -69,7 +60,7 @@ $(document).ready(function () {
     view.addObserver(controller);
 
     // Model Derived from Subject and notifies the controller about data changes,
-    // for example when Task Added, controller updates the view with the new task to present
+    // for example when task is added, controller updates the view with the new task to present
     inherits(new Subject(), model) ;
     model.addObserver(controller);
 

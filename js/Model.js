@@ -1,8 +1,8 @@
 
 /**
  * Model
- * Stores task items and notifies
- * the controller about data changes. Implements CRUD methods
+ * Stores task items and notifies the controller about data changes.
+ *  Implements CRUD methods
  *
  * Created by Yigal Omer
  * Date: 10-1-2013
@@ -30,6 +30,15 @@ Model.prototype = {
 
     },
 
+
+    // Update an item in the list and notify the controller
+    updateItem: function (index,text) {
+
+        this.mItems[index].text = text;
+        var event = new ObserverEvent(EVENT_TASK_ADDED);
+        this.notify(event) ;
+    },
+
     // Delete an item from the list and notify the controller about the deleted index
     removeItemAtIndex: function (index) {
 
@@ -44,7 +53,7 @@ Model.prototype = {
     setItemDoneAtIndex: function (index,doneStatus) {
 
         var item = this.mItems[index];
-        item.isDone = doneStatus ;
+        item.isCompleted = doneStatus ;
         var event = new ObserverEvent(doneStatus?EVENT_TASK_DONE:EVENT_TASK_UNDONE,item);
         this.notify(event) ;
 
@@ -54,7 +63,7 @@ Model.prototype = {
     getItemIsDoneAtIndex: function (index) {
 
         var item = this.mItems[index];
-        return item.isDone ;
+        return item.isCompleted ;
 
     }
 
