@@ -7,7 +7,7 @@
  */
 function Controller(model, view) {
 
-    this.mModel = model;
+    this._model = model;
     this.mView = view;
 
 }
@@ -27,26 +27,46 @@ Controller.prototype = {
             case EVENT_ADD_TASK_CLICKED :
 
                 if (event && event.mContextData) {
-                    this.mModel.addItem(event.mContextData);
+                    this._model.addItem(event.mContextData);
                 }
                 break ;
 
             case EVENT_DELETE_TASK_CLICKED :
 
-                index = event.mContextData;
-                this.mModel.removeItemAtIndex(index);
+                if (event && event.mContextData >= 0) {
+                    index = event.mContextData;
+                    this._model.removeItemAtIndex(index);
+
+                }
                 break ;
 
             case EVENT_TASK_DONE_CLICKED :
 
-                index = event.mContextData;
-                this.mModel.setItemDoneAtIndex(index,true);
+                if (event && event.mContextData >= 0) {
+                    index = event.mContextData;
+                    this._model.setItemDoneAtIndex(index,true);
+
+                }
                 break ;
 
             case EVENT_TASK_UNDONE_CLICKED :
-                index = event.mContextData;
-                this.mModel.setItemDoneAtIndex(index,false);
+
+                if (event && event.mContextData >= 0) {
+                    index = event.mContextData;
+                    this._model.setItemDoneAtIndex(index,false);
+                }
                 break ;
+
+            case EVENT_UPDATE_TASK_CLICKED :
+
+                if (event && event.mContextData ) {
+
+                    index = event.mContextData['taskIndex'];
+                    var updatedTaskText = event.mContextData['text'] ;
+                    this._model.updateItem(index,updatedTaskText) ;
+                }
+                break ;
+
 
 
             // Model -> Controller events
@@ -55,6 +75,7 @@ Controller.prototype = {
             case EVENT_TASK_DELETED :
             case EVENT_TASK_DONE :
             case EVENT_TASK_UNDONE :
+            case EVENT_TASK_UPDATED :
 
                 this.mView.rebuildList();
                 break ;

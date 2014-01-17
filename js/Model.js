@@ -35,7 +35,7 @@ Model.prototype = {
     updateItem: function (index,text) {
 
         this.mItems[index].text = text;
-        var event = new ObserverEvent(EVENT_TASK_ADDED);
+        var event = new ObserverEvent(EVENT_TASK_UPDATED);
         this.notify(event) ;
     },
 
